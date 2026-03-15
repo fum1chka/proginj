@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Анастасия",
+      "phone": "89967871577",
+      "card_number": null,
+      "borrowed_books": []
+    },
+    {
+      "id": 2,
+      "name": "Кирилл",
+      "phone": null,
+      "card_number": "73551984",
+      "borrowed_books": [
+        3
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Оно",
+      "author": "Стивен Кинг",
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "Хроники хищных городов",
+      "author": "Филип Рив",
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "Кладбище домашних животных",
+      "author": "Стивен Кинг",
+      "available": false
+    }
+  ]
+}
